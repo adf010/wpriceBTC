@@ -1,2 +1,5 @@
 # wpriceBTC
-Get an alarm when BTC or ETH go above or below a specified price.
+Get an alert when BTC price goes above or below a specified price.
+
+
+
