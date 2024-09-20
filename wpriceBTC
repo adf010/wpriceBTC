@@ -14,8 +14,8 @@ while true
 do
 sleep 3s
 clear
-echo "b=$b"
-echo "c=$c"
+echo "High =$b"
+echo "Low =$c"
 
 outputb=$(curl -L -s "https://api.exchange.coinbase.com/products/${prod_id1}/ticker" -H "Content-Type: application/json" | jq -r ".price" | sed -E 's/(.+)/$\1/' | tr -d '$')
 
